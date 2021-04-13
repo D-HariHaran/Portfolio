@@ -1,0 +1,38 @@
+.about {
+  padding: 4rem;
+  background: #fff;
+  height: 80vh;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.body {
+  background-color: #fff;
+}
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 100px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.cards__wrapper {
+  position: fixed;
+  margin: 50px 0 45px;
+  text-align: justify; /* For Edge */
+  text-align-last: center;
+}

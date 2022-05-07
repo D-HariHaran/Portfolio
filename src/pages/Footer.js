@@ -2,18 +2,16 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'wouter';
 import { Button } from '../components/Button';
-
 function Footer() {
   const dev1 = `Contact Developer`;
-  const dev2 = `D.Hariharan`;
   const dev3 = `haranhari003@gmail.com`;
-  const notify = `FEEL FREE TO CONTACT ME`;
+  const notify = `GET IN TOUCH`;
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        {/* <p className='footer-subscription-heading'>
           <h2>LET ME KNOW</h2>
-        </p>
+        </p> */}
 
       </section>
       <p className='footer-subscription-text' style={{ color: 'white', textAlign: 'center' }}>
@@ -28,93 +26,47 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper' >
           <div class='footer-link-items' >
-            <h2>CONTACT</h2>
-            <a href="mailto:avinashsubrayan@gmail.com" target="_blank" rel="noreferrer">Email</a>
+            <i href="mailto:avinashsubrayan@gmail.com" target="_blank" style={{color:"white"}} className='fa fa-envelope' rel="noreferrer"/>
             <a href="mailto:avinashsubrayan@gmail.com" target="_blank" rel="noreferrer">
-              <h4 style={{ color: 'white', paddingBottom: '10px' }}>avinashsubrayan@gmail.com</h4>
+            <h4 style={{ color: 'white', paddingBottom: '10px' }}>avinashsubrayan@gmail.com</h4>
             </a>
-            <a href="">Mobile</a>
-            <h4 style={{ color: 'white' }}>+91 7708810529</h4>
+            <i style={{color:"white"}} className='fa fa-address-card' href=""/>
+            <h4 style={{ color: 'white',size:"30px" }}>+91 8825517933</h4>
           </div>
         </div>
       </div>
+      {/* <div className='whatsapp'>
+            <h6 style={{textAlign: 'center'}}>Whatsapp</h6>
+          </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <h2 style={{ color: 'white', textAlign: 'center' }}>
+            <h2 style={{ color: 'white', textAlign: 'center' , fontSize: '20px' }}>
               {dev1.split('\n\n').map(paragraph =>
                 <p>
                   {paragraph.split('\n').reduce((total, line) => [total, <br />, line])}
                 </p>
               )}
             </h2>
-            <a href="https://www.linkedin.com/in/d-hari-haran-elite" target="_blank" rel="noreferrer">
-              <h3 style={{ color: 'white', textAlign: 'center' }}>
-                {dev2.split('\n\n').map(paragraph =>
-                  <p>
-                    {paragraph.split('\n').reduce((total, line) => [total, <br />, line])}
-                  </p>
-                )}
-              </h3>
-            </a>
-
-            <a href="mailto:haranhari003@gmail.com" rel="noreferrer" target="_blank">
-              <h3 style={{ color: 'white', textAlign: 'center' }}>
-
+            
+            <a >
+              <h3 style={{ color: 'white', textAlign: 'center', fontSize: '12px' }}>
+              
                 {dev3.split('\n\n').map(paragraph =>
-
+                
                   <p>
                     {paragraph.split('\n').reduce((total, line) => [total, <br />, line])}
                   </p>
                 )}
-
+               
               </h3>
-            </a>
-
+              </a>
+          
           </div>
           <small class='website-rights'></small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+           <div className='quote'>
+            <h6 >" Cinema is a matter of what's in the frame and what's out " - Martin Scorsese</h6>
+          </div> 
         </div>
       </section>
     </div>

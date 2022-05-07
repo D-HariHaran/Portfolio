@@ -2,18 +2,18 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-var firebaseConfig = {
-  apiKey: "AIzaSyC59YvFKHNke1NepqWE1u-E5Z093BBD4Gk",
-  authDomain: "photography-portfolio-e5d95.firebaseapp.com",
-  projectId: "photography-portfolio-e5d95",
-  storageBucket: "photography-portfolio-e5d95.appspot.com",
-  messagingSenderId: "962372284020",
-  appId: "1:962372284020:web:46c47cb93cefb048cc6b21"
+
+const firebaseConfig = {
+    apiKey: "AIzaSyANLBrSQRzWgC6Qz-N_y52nFFRIJFk9xrk",
+    authDomain: "avinash-portfolio-project.firebaseapp.com",
+    projectId: "avinash-portfolio-project",
+    storageBucket: "avinash-portfolio-project.appspot.com",
+    messagingSenderId: "959015260199",
+    appId: "1:959015260199:web:8d274890789cb444d0fe02"
 };
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+  
 
-
+firebase.initializeApp(firebaseConfig)
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;

@@ -1,20 +1,147 @@
 .about {
-  padding: 4rem;
-  background: #fff;
-  height: 80vh;
+  padding: 2rem;
+  background: #212121 !important;
+  min-height: 80vh;
+  height: fit-content;
   width: 100%;
-
+  justify-content: center;
   display: flex;
   flex-flow: column;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  /* background: url("reborn_pal.png") center center/cover no-repeat; */
+}
+.films{
+  display: flex;
+  flex-direction: row;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding-bottom: 50px;
+  justify-content: center;
+  padding-left: 0px;
+  width: 90vw;
+  backdrop-filter: blur(10px);
+}
+.titleCine{
+  font-size: 70px;
+  color: #fff;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.movieTitle{
+  display:"flex";
+  width:"100%";
+  align-items:"center";
+  justify-content:"center";
+}
+.desciption{
+  background-color: #181818;
+  width: 900px;
+  color: #fff;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  /* padding-top: 90px;
+  padding-bottom: 10px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pei_desc{
+  background-color: #181818;
+  width: 900px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.stain_desciption{
+  background-color: #181818;
+  width: 900px;
+  color: #fff;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dillan_desciption{
+  background-color: #181818;
+  width: 900px;
+  color: #fff;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.iru{
+  background-color: #181818;
+  width: 900px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.short{
+  width: 460px;
+}
+.secondDesc{
+  font-size: 15px;
+  width: 100%;
+  padding: 20px;
 }
 .body {
   background-color: #fff;
+}
+.reborn{
+  background: url("reborn.png") center center/cover no-repeat;
+  width: 1390px;
+  height: 430px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.aravind{
+  background: url("aravind.png") center center/cover no-repeat;
+  width: 1290px;
+  height: 420px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.sin{
+  background: url("sin.png") center center/cover no-repeat;
+  width: 1310px;
+  height: 420px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.pei{
+  background: url("pei.png") center center/cover no-repeat;
+  width: 1310px;
+  height: 420px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.dillan{
+  background: url("dillan.png") center center/cover no-repeat;
+  width: 1310px;
+  height: 420px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.abContent{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   text-align: center;
@@ -35,4 +162,136 @@ h1 {
   margin: 50px 0 45px;
   text-align: justify; /* For Edge */
   text-align-last: center;
+}
+@media only screen and (max-width: 1000px) {
+  .about {
+    padding: 1rem;
+    background: #212121 !important;
+    min-height: 80vh;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    /* background: url("reborn_pal.png") center center/cover no-repeat; */
+  }
+  .films{
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding-bottom: 50px;
+    width: 90vw;
+  }
+  iframe{
+    height: 260px !important;
+  }
+  .titleCine{
+    font-size: 23px;
+  }
+  .frameVideo{
+    width: 100%;
+  }
+  .reborn{
+    background: url("reborn.png") center/center;
+    width: 330px !important;
+    height: 185px !important;
+    background-color: #fff;
+    cursor: pointer;
+    object-fit: fill !important;
+  }
+  .aravind{
+    background: url("aravind.png") center center/cover no-repeat;
+    width: 330px !important;
+    height: 185px !important;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .sin{
+    background: url("sin.png") center center/cover no-repeat;
+    width: 330px !important;
+    height: 185px !important;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .pei{
+    background: url("pei.png") center center/cover no-repeat;
+    width: 330px !important;
+    height: 185px !important;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .dillan{
+    background: url("dillan.png") center center/cover no-repeat;
+    width: 330px !important;
+    height: 185px !important;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .desciption{
+    background-color: #181818;
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    /* padding-top: 90px;
+    padding-bottom: 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .pei_desc{
+    background-color: #181818;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .stain_desciption{
+    background-color: #181818;
+    width: 100%;
+    color: #fff;
+    font-size: 40px !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .dillan_desciption{
+    background-color: #181818;
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .iru{
+    background-color: #181818;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px !important;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
 }

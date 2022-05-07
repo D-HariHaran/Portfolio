@@ -4,7 +4,7 @@ import './Services.css';
 import CardItem from './CardItem';
 
 function Services() {
-    const text = `Hello`
+
   return (
     <div className='cards'>
       <h1>SERVICES</h1>

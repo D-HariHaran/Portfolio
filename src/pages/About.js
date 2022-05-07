@@ -24,7 +24,7 @@ function About() {
        <h1 className="titleCine" style={{paddingTop:"70px"}}>CINEMATOGRAPHY</h1>
        <h1 style={{color: "#F9F6EE",fontSize: "50px",paddingBottom: "80px"}}>_</h1>
       <div className='films'>
-        <a className='reborn' href='https://www.youtube.com/watch?v=ZZxCJ66Re9U&t=23s' target="blank" textDecoration="none">
+        <a className='reborn' href='https://www.youtube.com/watch?v=ZZxCJ66Re9U&t=23s' target="blank" >
         <a className='fa fa-play-circle' href='https://www.youtube.com/watch?v=ZZxCJ66Re9U&t=23s' target="blank" style={{color:"white",paddingLeft:"45%",fontSize:"50px",paddingTop:"25%",textDecoration:"none"}}></a>
         </a>
         <div className='desciption'>

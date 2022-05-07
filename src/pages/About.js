@@ -37,6 +37,9 @@ function About() {
      </div>
 
      <div className='films'>
+       <a className='aravind' href='https://www.youtube.com/watch?v=JJn1uwn7cOM&t=3s' target="blank">
+        <a className='fa fa-play-circle' href='https://www.youtube.com/watch?v=JJn1uwn7cOM&t=3s' target="blank" style={{color:"white",paddingLeft:"45%",fontSize:"50px",paddingTop:"25%",textDecoration:"none"}}></a>
+        </a>
         <div className='iru'>
         <div style={{width:"100%",alignItems:"center",justifyContent:"center",display:"flex"}}>IRU PAKKANGAL</div>
         <h1 style={{width:"100%",alignItems:"center",justifyContent:"center",display:"flex",fontSize:"15px"}}>- (short film) -<br/></h1>
@@ -44,9 +47,6 @@ function About() {
         Aravind is on his vacation. To kill the boredom of his vacation, he thinks of writing a story about two characters and their completely different personalities.
         </h1>
         </div>
-        <a className='aravind' href='https://www.youtube.com/watch?v=JJn1uwn7cOM&t=3s' target="blank">
-        <a className='fa fa-play-circle' href='https://www.youtube.com/watch?v=JJn1uwn7cOM&t=3s' target="blank" style={{color:"white",paddingLeft:"45%",fontSize:"50px",paddingTop:"25%",textDecoration:"none"}}></a>
-        </a>
      </div>
 
 
@@ -65,6 +65,9 @@ function About() {
      </div>
      
      <div className='films'>
+     <a className='sin' href='https://www.youtube.com/watch?v=M1V1AHLR1w4' target="blank">
+        <a className='fa fa-play-circle' href='https://www.youtube.com/watch?v=M1V1AHLR1w4' target="blank" style={{color:"white",paddingLeft:"45%",fontSize:"50px",paddingTop:"25%",textDecoration:"none"}}></a>
+        </a>
         <div className='stain_desciption'>
         <div style={{width:"100%",alignItems:"center",justifyContent:"center",display:"flex"}}>STAIN OF SIN</div>
         <h1 style={{width:"100%",alignItems:"center",justifyContent:"center",display:"flex",fontSize:"15px"}}>- (short film) -<br/></h1>
@@ -72,9 +75,6 @@ function About() {
         The entire film was shot on iphone 11
         </h1>
         </div>
-        <a className='sin' href='https://www.youtube.com/watch?v=M1V1AHLR1w4' target="blank">
-        <a className='fa fa-play-circle' href='https://www.youtube.com/watch?v=M1V1AHLR1w4' target="blank" style={{color:"white",paddingLeft:"45%",fontSize:"50px",paddingTop:"25%",textDecoration:"none"}}></a>
-        </a>
      </div>
 
 

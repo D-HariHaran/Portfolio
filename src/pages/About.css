@@ -42,9 +42,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  backdrop-filter: blur(10px);
-  /* padding-top: 90px;
-  padding-bottom: 10px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pei_desc{
@@ -105,14 +102,14 @@
 }
 .reborn{
   background: url("reborn.png") center center/cover no-repeat;
-  width: 1390px;
-  height: 430px;
+  width: 1310px;
+  height: 420px;
   background-color: #fff;
   cursor: pointer;
 }
 .aravind{
   background: url("aravind.png") center center/cover no-repeat;
-  width: 1290px;
+  width: 1310px;
   height: 420px;
   background-color: #fff;
   cursor: pointer;
@@ -196,37 +193,36 @@ h1 {
   }
   .reborn{
     background: url("reborn.png") center/center;
-    width: 330px !important;
-    height: 185px !important;
+    width: 100%;
+    height: 182px ;
     background-color: #fff;
     cursor: pointer;
-    object-fit: fill !important;
   }
   .aravind{
     background: url("aravind.png") center center/cover no-repeat;
-    width: 330px !important;
-    height: 185px !important;
+    width: 100%;
+    height: 182px;
     background-color: #fff;
     cursor: pointer;
   }
   .sin{
     background: url("sin.png") center center/cover no-repeat;
-    width: 330px !important;
-    height: 185px !important;
+    width: 100%;
+    height: 182px ;
     background-color: #fff;
     cursor: pointer;
   }
   .pei{
     background: url("pei.png") center center/cover no-repeat;
-    width: 330px !important;
-    height: 185px !important;
+    width: 100%;
+    height: 182px;
     background-color: #fff;
     cursor: pointer;
   }
   .dillan{
     background: url("dillan.png") center center/cover no-repeat;
-    width: 330px !important;
-    height: 185px !important;
+    width: 100% ;
+    height: 182px;
     background-color: #fff;
     cursor: pointer;
   }
@@ -240,9 +236,6 @@ h1 {
     display: flex;
     padding-top: 20px;
     flex-direction: column;
-    backdrop-filter: blur(10px);
-    /* padding-top: 90px;
-    padding-bottom: 10px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .pei_desc{

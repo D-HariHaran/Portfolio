@@ -7,14 +7,14 @@ const ImageGrid = ({ setSelectedImg }) => {
   const { docs } = useFirestore('images');
 
   return (
-    <div className="img-grid" style={{justifyContent:'center',alignContent:'center',paddingLeft:"0px"}}>
+    <div className="img-grid" style={{justifyContent:'center',alignContent:'center',paddingLeft:"0px",objectFit:"contain"}}>
       {docs && docs.map(doc => (
-        <motion.div className="img-wrap" key={doc.id} 
+        <motion.div className="img-wrap" style={{objectFit:"fill !important"}} key={doc.id} 
         layout
         whileHover={{ opacity: 1 }}s
         onClick={() => setSelectedImg(doc.url)}
         >
-          <motion.img className="img" src={doc.url} alt="uploaded pic"
+          <motion.img className="img" style={{objectFit:"fill !important"}} src={doc.url} alt="uploaded pic"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
